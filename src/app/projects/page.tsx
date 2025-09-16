@@ -9,28 +9,35 @@ const projects = [
     title: "scribe",
     description:
       "a minimal note-taking app with a clean editor, firebase sync, and google authentication.",
-    href: "https://freehandx.gauravsingh.co.in/",
+    href: "https://scribe-gold.vercel.app",
   },
   {
     id: "myth-moss",
     title: "myth & moss",
     description:
       "an aesthetic space for calm productivity, featuring ambient sounds, pomodoro timers, and to-do lists.",
-    href: "https://drive.google.com/file/d/1OMP5khnNDDO1lxSSXiGf7Oih-UyNP1FV/view?usp=drive_link",
+    href: "https://myth-moss.vercel.app",
   },
   {
     id: "pathfinder",
     title: "pathfinding visualizer",
     description:
       "an interactive tool to explore algorithms like a*, dijkstra, and bfs through visual animations.",
-    href: "https://tool.qr.gauravsingh.co.in/",
+    href: "https://pathfinding-visualizer-swart.vercel.app",
+  },
+  {
+    id: "vesperal",
+    title: "vesperal",
+    description:
+      "a serene workspace blending focus tools like timers, notes, and ambient sounds into a calming experience.",
+    href: "https://vesperal-i7eilwf42-arsh31s-projects.vercel.app/login",
   },
   {
     id: "antivery",
     title: "anti very",
     description:
       "a fun word-play app that flips meanings and generates quirky, anti-phrased responses.",
-    href: "https://chat-with-pdf-zeta-six.vercel.app/",
+    href: "https://github.com/Arsh-31/anti-very",
   },
 ];
 
