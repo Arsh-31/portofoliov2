@@ -43,7 +43,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className="flex max-w-full flex-col py-40 md:py-52">
+    <div className="flex min-h-screen flex-col justify-center px-4">
       <div className="max-w-2xl mx-auto">
         {/* Header */}
         <div className="flex justify-between items-center mb-8">
