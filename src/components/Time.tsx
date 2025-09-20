@@ -2,22 +2,22 @@
 
 import { useState, useEffect } from "react";
 
+function pad(num: number) {
+  return num.toString().padStart(2, "0");
+}
+
+function formatTime() {
+  const now = new Date();
+  return {
+    hours: pad(now.getHours()),
+    minutes: pad(now.getMinutes()),
+  };
+}
+
 export default function Time() {
   const [hours, setHours] = useState<string>("");
   const [minutes, setMinutes] = useState<string>("");
   const [animating, setAnimating] = useState(false);
-
-  function pad(num: number) {
-    return num.toString().padStart(2, "0");
-  }
-
-  function formatTime() {
-    const now = new Date();
-    return {
-      hours: pad(now.getHours()),
-      minutes: pad(now.getMinutes()),
-    };
-  }
 
   useEffect(() => {
     const { hours, minutes } = formatTime();
