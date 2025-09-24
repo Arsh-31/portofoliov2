@@ -39,6 +39,13 @@ const projects = [
       "a fun word-play app that flips meanings and generates quirky, anti-phrased responses.",
     href: "https://github.com/Arsh-31/anti-very",
   },
+  {
+    id: "pitchflow",
+    title: "pitch flow",
+    description:
+      "an AI-powered app that spins out slick, high-converting marketing copy for your brand.",
+    href: "https://github.com/Arsh-31/pitch-flow",
+  },
 ];
 
 export default function Projects() {
