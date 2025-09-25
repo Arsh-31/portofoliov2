@@ -46,6 +46,14 @@ const projects = [
       "an AI-powered app that spins out slick, high-converting marketing copy for your brand.",
     href: "https://github.com/Arsh-31/pitch-flow",
   },
+  // remove
+  {
+    id: "typewriter",
+    title: "typewriter",
+    description:
+      "a typing test app to measure and improve your typing speed and accuracy.",
+    href: "https://github.com/Arsh-31/TypeWriter",
+  },
 ];
 
 export default function Projects() {
